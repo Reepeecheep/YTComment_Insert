@@ -22,8 +22,10 @@ python3 ytcomment_insert.py --video_id <VIDEO_ID> --message <MESSAGE>
   
 Aditional parameters
 
---loop: If you need insert more than one comment
---json: If the name of your json api file is'nt "client_secrets.json". Example:
+```python
+loop #If you need insert more than one comment
+json #If the name of your json api file is'nt "client_secrets.json". Example:
+```
 
 ```bat
 python3 ytcomment_insert.py --video_id <VIDEO_ID> --message <MESSAGE> --json "key.json"
