@@ -17,16 +17,14 @@ Download the client_secrets.json file of your google app
 Execute on terminal:
 
 ```bat
-python3 ytcomment_insert.py --video_id <VIDEO_ID> --message <MESSAGE>
+python3 ytcomment_insert.py --video_id <video_id> --message <message>
 ```
   
 Aditional parameters
 
-```python
-loop #If you need insert more than one comment
-json #If the name of your json api file is'nt "client_secrets.json". Example:
-```
+-- loop: If you need insert more than one comment<br>
+-- json: If the name of your json api file is'nt "client_secrets.json". Example:
 
 ```bat
-python3 ytcomment_insert.py --video_id <VIDEO_ID> --message <MESSAGE> --json "key.json"
+python3 ytcomment_insert.py --video_id <vide_id> --message <message> --json "key.json"
 ```
