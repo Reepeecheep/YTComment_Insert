@@ -16,7 +16,7 @@ Download the client_secrets.json file of your google app
 
 Execute on terminal:
 
-```python
+```bat
 python3 ytcomment_insert.py --video_id <VIDEO_ID> --message <MESSAGE>
 ```
   
